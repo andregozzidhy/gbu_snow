@@ -1,0 +1,243 @@
+/* custom CSS Stylesheet */
+
+html, body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	min-height: 100%;
+	position:relative;
+}
+body{
+    background:#ede8e3;
+	min-height: 100%;
+}
+
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.header{
+	padding:10px 0;
+	background-image: url(../images/bg.jpg);
+	background-repeat:repeat-x;
+}
+.headerDosen {
+    padding: 10px 0;
+    background-image: url(../images/bgdosen.jpg);
+    background-size: 100% 130%;
+    background-repeat: repeat-x;
+}
+#nav .current a {
+   color:#105b63;
+   /*background:#e4551d;--*/
+   -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+footer{
+	position:absolute;
+	min-height:80px;
+	background-color: #f5f5f5;
+	margin-top:10px;
+}
+.footer{
+	font-size:12px;
+	height:auto;
+	width: 100%;
+}
+
+.endHeader{
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.endHeaderTable{
+	border: 0;
+    height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.navbar-nav > li > a{
+	padding-top:10px;
+	padding-bottom:10;
+}
+.navbar{
+	min-height:40px;
+}
+
+.customNavbar{
+	border:none;
+	background:none;
+    outline:none;
+}
+
+.nav.navbar-nav.navbar-right li a{
+    color: white;
+}
+
+.nav .navbar-nav > li > a:hover, .nav .navbar-nav > li > a:focus {
+    color: yellow;
+}
+
+.pengumuman{
+	padding-bottom:20px;
+}
+.pengumuman a{
+	color:#d29d6e;
+}
+
+.file{
+	font-size:13px;
+	padding-bottom:10px;
+}
+.file a{
+	color:#d29d6e;
+}
+.tab-content{
+	
+    padding:10px
+}
+#pagging {
+	width:100%;
+}
+
+#pagging a{
+	font-size:12px;
+	color:black;
+}
+
+#pagging a:hover{
+	color:red;
+}
+#pagging li.active a{
+	color:white;
+}
+
+#konfirmasi {
+	background:white;
+	padding:15px;
+}
+#konfirmasi > .btn{
+	float:right;
+	margin-bottom:10px;
+}
+#konfirmasi pre{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size:100%;
+}
+
+.col-md-12{
+	background:white;
+	padding:0;
+}
+.dropdown {
+    display:inline-block;
+    margin-left:20px;
+  }
+
+
+.notifications {
+   min-width:400px;
+  }
+  
+  .notifications-wrapper {
+ overflow:auto;
+  max-height:250px;
+}
+.users {
+   min-width:200px;
+  }
+  
+  .users-wrapper {
+ overflow:auto;
+  max-height:250px;
+}
+    
+ .menu-title {
+ color:#ff7788;
+  display:inline-block;
+  }
+ 
+.glyphicon-circle-arrow-right {
+      margin-left:10px;     
+   }
+  
+   
+ .notification-heading, .notification-footer  {
+	padding:2px 10px;
+}
+      
+        
+.dropdown-menu.divider {
+  margin:5px 0;          
+  }
+
+.item-title {
+  
+ color:#000;
+    
+}
+
+.notifications a.content {
+ text-decoration:none;
+ background:#ccc;
+
+ }
+    
+.notification-item {
+ padding:10px;
+ margin:5px;
+ background:#ccc;
+ border-radius:4px;
+ }
+
+ .notification-item2 {
+ padding:10px;
+ margin:5px;
+ background:#abf;
+ border-radius:4px;
+ }
+.users a.content {
+ text-decoration:none;
+ background:#ccc;
+
+ }
+    
+.users-item {
+ padding:10px;
+ margin:5px;
+ background:#ccc;
+ border-radius:4px;
+ }
+
+.mylegend{
+	width:50px;
+	height:25px;
+	float:left;
+	margin-right:10px;
+}
+
+#info > .table th, .table td { 
+     border-top: none !important; 
+ }
+ .table td, .table th {
+    border: none;
+}
+
+table.table.table-condensed {
+    border: 1px solid silver;
+}
+
+@media screen and (min-width: 768px) {
+	
+	.modal-dialog  {width:400px;}
+
+}
+
+
+

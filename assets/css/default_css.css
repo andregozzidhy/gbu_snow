@@ -1,0 +1,44 @@
+* {
+	font-family: pier-regular;
+	font-size: 12pt;
+}
+
+#main-logo {
+	display: block;
+	width: 200px;
+	height: 110px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto 20px;
+}
+
+#navigation {
+	display: block;
+	margin: 0 auto 20px;
+	font-size: 14pt;
+}
+
+#container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.subtitle {
+	font-size: 16pt;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.button {
+	width: 100px;
+	height: 40px;
+	background-color: #252525;
+	color: white;
+	border: 1px solid #252525;
+	transition: all 0.3s;
+}
+
+.button:hover {
+	background-color: white;
+	color: #252525;
+}

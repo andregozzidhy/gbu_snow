@@ -1,0 +1,38 @@
+* {
+	font-size: 4vw;
+}
+
+#main-logo {
+	display: block;
+	width: 60vw;
+	height: 31vw;
+	background-image: url("<?php echo base_url("assets/logo/logo.png"); ?>");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto 20px;
+}
+
+#navigation {
+	display: block;
+	margin: 0 auto 20px;
+	font-size: 5vw;
+}
+
+#container {
+	width: 85vw;
+	margin: 0 auto;
+}
+
+.button {
+	width: 25vw;
+	height: 10vw;
+	background-color: #252525;
+	color: white;
+	border: 1px solid #252525;
+	transition: all 0.3s;
+}
+
+.button:active {
+	background-color: white;
+	color: #252525;
+}

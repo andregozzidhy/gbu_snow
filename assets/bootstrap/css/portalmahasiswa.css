@@ -1,0 +1,61 @@
+#container {
+		width: 800px;
+		height: 1000px;
+		margin: 0 auto;
+}
+
+#overall_progress {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#progressbar {
+	width: inherit;
+	margin-top: 20px;
+	height: 70px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 3px #888888;
+}
+
+#persen {
+	position: absolute;
+	margin-left: 150px;
+	text-align: center;
+	font-size: 35pt;
+}
+
+#belum_bar {
+	float: left;
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	border-radius: 10px;
+}
+
+#sudah_bar {
+	background-color: lime;
+	position: absolute;
+	width: 100px;
+	height: 68px;
+	border-radius: 10px;
+	float:left;
+}
+
+#sudah_notification {
+	position: absolute;
+	visibility: hidden;
+	border: 1px solid black;
+	text-align: left;
+	background: rgba(200, 255, 200, .7);
+}
+
+#belum_notification {
+	position: absolute;
+	visibility: hidden;
+	margin-left: 250px;
+	border: 1px solid black;
+	text-align: left;
+	background: rgba(255, 200, 200, .7);
+}
